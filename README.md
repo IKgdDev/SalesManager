@@ -5,18 +5,10 @@
 **Возможности:**
 
 1. Производит анализ статистики продаж, 
-и определяет максимальное количество продаж
+и определяет среднее количество продаж
 
 ```java
-public int max() {
-        int max = -1;
-        for (int sale : sales) {
-            if (sale > max) {
-                max = sale;
-            }
-        }
-        return max;
-    }
+public long trimAverage()
 ```
 
 

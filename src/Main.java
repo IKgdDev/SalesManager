@@ -1,7 +1,7 @@
 public class Main {
     public static void main (String[] args){
-        int[] sales = {2, 4, 3, 7};
+        int[] sales = {10, 4, 3, 7, 10, 2, 6};
         SalesManager salesManager = new SalesManager(sales);
-        System.out.println("Максимальное количество продаж составляет: " + salesManager.max());
+        System.out.println("Среднее количество продаж составляет: " + salesManager.trimAverage());
     }
 }
